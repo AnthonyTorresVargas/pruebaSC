@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sambos Caporales Cajamarca</title>
+    <link rel="stylesheet" href='styles.css'>
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/e8d4598eca.js" crossorigin="anonymous"></script>
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo" alt="Fraternidad Sambos Caporales Cajamarca">FS<span>CCaj</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu();">Principal</a></li>
+            <li><a href="#nosotros" onclick="toggleMenu();">Nosotros</a></li>
+            <li><a href="#integrantes" onclick="toggleMenu();">Integrantes</a></li>
+            <li><a href="#galeria" onclick="toggleMenu();">Galería</a></li>
+            <li><a href="#ubicanos" onclick="toggleMenu();">Ubícanos</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="banner">
+        <video src="img/presentacion.mp4" muted autoplay loop type="mp4"></video>
+        <div class="textBox">
+            <h2>Fraternidad </br>Sambos <span>Caporales Cajamarca</span></h2>
+            <p>Agrupación 100% cajamarquina! que acoge a niños, jóvenes y adultos de todas las edades. Único requisito:
+                ganas de aprender y mejorar cada día más. </br></br>¡Porque somos más calidad, que cantidad!</p>
+            <a href="#nosotros" class="btn">Saber más <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div class="videoBox">
+            <video src="img/presentacion.mp4" muted autoplay loop type="mp4"></video>
+        </div>
+        <ul class="sci">
+            <li><a target="_blank"
+                    href="https://www.facebook.com/F-Sambos-Caporales-Cajamarca-2268274396822372/?ref=py_c"><img
+                        src="img/facebook.png" alt=""></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/user/HajimeNoIppo7891/videos"><img
+                        src="img/youtube.png" alt=""></a></li>
+        </ul>
+    </section>
+    <!-- NOSOTROS -->
+    <section class="nosotros" id="nosotros">
+        <div class="nosotrosInfo">
+            <h2>Coloca el mouse o toca los círculos para más información</h2>
+        </div>
+        <div class="escudo">
+            <div class="cardEscudo">
+                <div class="circleEscudo"></div>
+                <div class="content">
+                    <h2>Escudo FSCCaj</h2>
+                    <p>Es la inignia de la fraternidad y fue diseñada por nosotros mismos. Cada parte del escudo tiene
+                        un significado el cual se detalla a continuación.</p>
+                    <a target="blank"
+                        href="https://www.facebook.com/2268274396822372/photos/2660608030922338/">Significado</a>
+                </div>
+                <img src="img/agrupacion/escudo.png" alt="">
+            </div>
+        </div>
+        <div class="nosotrosInfo">
+            <h2>Directiva de nuestra fraternidad</h2>
+        </div>
+        <div class="directiva">
+            <div class="card">
+                <div class="circlePresi"></div>
+                <div class="content">
+                    <h2>Alexandra Ruiz</h2>
+                    <p>Presidenta de la fraternidad. Encargada del bloque de mujeres. Su meta fue fundar un grupo donde
+                        primen los valores. </br>Siempre luchará para que esta meta se cumpla.</p>
+                    <a href="#">Contáctala</a>
+                </div>
+                <img src="img/agrupacion/alePresidenta.png" alt="">
+            </div>
+            <div class="card">
+                <div class="circleDirec"></div>
+                <div class="content">
+                    <h2>Anthony Torres</h2>
+                    <p>Director Artístico de la fraternidad. Encargado del bloque de varones y de las coreografías.
+                        </br>Siempre da el 100% para innovar sin perder la escencia de esta danza.</p>
+                    <a href="#">Contáctalo</a>
+                </div>
+                <img src="img/agrupacion/thonyDirector.png" alt="">
+            </div>
+        </div>
+        <div class="nosotrosInfo">
+            <h2>Requisitos para pertenecer a la fraternidad.</h2>
+        </div>
+        <div class="requisitos">
+            <!-- COMPROMISO -->
+            <div class="cardB">
+                <div class="imgBx" data-text="Compromiso">
+                    <img src="img/agrupacion/compromiso.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="infoRequisitos">
+                        <h3>Compromiso</h3>
+                        <p>Queremos asegurar una agrupación con integrantes que tengan la camiseta bien puesta. Hasta el
+                            final!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- DISCIPLINA -->
+            <div class="cardB">
+                <div class="imgBx" data-text="Disciplina">
+                    <img src="img/agrupacion/disciplina.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="infoRequisitos">
+                        <h3>Disciplina</h3>
+                        <p>Se deben cumplir las normas establecidas por la directiva para lograr ser uno de los mejores
+                            grupos.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- TRABAJO EN EQUIPO -->
+            <div class="cardB">
+                <div class="imgBx" data-text="Equipo">
+                    <img src="img/agrupacion/equipo.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="infoRequisitos">
+                        <h3>Trabajo en Equipo</h3>
+                        <p>Debe primar el respeto para los profesores y entre los integrantes.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- DEDICACION -->
+            <div class="cardB">
+                <div class="imgBx" data-text="Dedicación">
+                    <img src="img/agrupacion/dedicacion.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="infoRequisitos">
+                        <h3>Dedicación</h3>
+                        <p>Poner el 100% en cada ensayo, solo así lograremos ser los mejores. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h2 style="color: white;font-size: 1em;margin: 0px 1em;">Actividades en las que participamos</h2>
+    <section class="actividades" id="actividades">
+
+        <div class="contenedorA">
+            <div class="cardA">
+                <div class="imgBxA">
+                    <img src="img/pasacalles.png">
+                </div>
+                <div class="contenidoA">
+                    <div>
+                        <h2>Pasacalles</h2>
+                        <p>La agrupación ha participado en diversos pasacalles.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cardA">
+                <div class="imgBxA">
+                    <img src="img/presentacion.png">
+                </div>
+                <div class="contenidoA">
+                    <div>
+                        <h2>Presentaciones</h2>
+                        <p>La agrupación tiene un amplio repertorio de coreografías para todo tipo de presentaciones.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cardA">
+                <div class="imgBxA">
+                    <img src="img/conPar.png">
+                </div>
+                <div class="contenidoA">
+                    <div>
+                        <h2>Concursos Pareja</h2>
+                        <p>Siempre dejando el nombre del grupo en alto.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cardA">
+                <div class="imgBxA">
+                    <img src="img/conInd.png">
+                </div>
+                <div class="contenidoA">
+                    <div>
+                        <h2>Concursos Individuales</h2>
+                        <p>Obteniendo los primeros puestos en estos concursos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="integrantes" id="integrantes">
+        <div class="circle"></div>
+        <div class="contenido">
+            <div class="textBoxI">
+                <h2>Nuestros Integrantes</h2>
+                <p>Para la agrupación, cada uno de los integrantes es pieza clave, siendo estos fundamentales en cada
+                    paso que demos
+                    pues sin ellos, no llegaremos a ser los mejores; por eso, nos centramos en que aprendan y si es
+                    necesario, les enseñaremos desde cero.</br></br>Desliza a la izquierda o derecha para conocer a
+                    nuestros integrantes</p>
+            </div>
+            <div class="imgBoxI">
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/integrantes/aleeIntegrante.png"></div>
+                        <div class="swiper-slide"><img src="img/integrantes/thonyIntegrante.png"></div>
+                        <div class="swiper-slide"><img src="img/integrantes/aleeIntegrante.png"></div>
+                        <div class="swiper-slide"><img src="img/integrantes/thonyIntegrante.png"></div>
+                        <div class="swiper-slide"><img src="img/integrantes/aleeIntegrante.png"></div>
+                        <div class="swiper-slide"><img src="img/integrantes/thonyIntegrante.png"></div>
+                        <!-- <div class="swiper-slide"><img src="img/integrantes/paola.png"></div>
+                        <div class="swiper-slide"><img src="img/integrantes/junior.png"></div>
+                        <div class="swiper-slide"><img src="img/integrantes/joselyn.png"></div>
+                        <div class="swiper-slide"><img src="img/integrantes/mattew.png"></div>
+                        <div class="swiper-slide"><img src="img/integrantes/ana.png"></div>
+                        <div class="swiper-slide"><img src="img/integrantes/cris.png"></div>
+                        <div class="swiper-slide"><img src="img/integrantes/veronica.png"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="galeria" id="galeria">
+        <!-- Youtube Section Begin -->
+        <section class="youtube spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="section-title">
+                            <h2>Presentaciones</h2>
+                            <h1>Youtube</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="rowYoutube">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="youtube__item">
+                            <!-- <div class="youtube__item__pic set-bg"
+                                style="background-image: url('img/videosYoutube/youtube-1.jpg')">
+                                <a target="blank" href="https://www.youtube.com/watch?v=eRgH1-rSYyU"
+                                    class="play-btn video-popup"><i class="fa fa-play"></i></a>
+                            </div> -->
+                            <iframe width="100%" height="300" src="https://www.youtube.com/embed/eRgH1-rSYyU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <!-- <div class="youtube__item__text">
+                                <h4>Sambos Caporales Parejas 2018</h4>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="youtube__item">
+                            <!-- <div class="youtube__item__pic set-bg"
+                                style="background-image: url('img/videosYoutube/youtube-2.jpg')">
+                                <a target="blank" href="https://www.youtube.com/watch?v=lTso7b9fou0"
+                                    class="play-btn video-popup"><i class="fa fa-play"></i></a>
+                            </div> -->
+                            <iframe width="100%" height="300" src="https://www.youtube.com/embed/lTso7b9fou0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <!-- <div class="youtube__item__text">
+                                <h4>Sambos Caporales Solista 2018</h4>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="youtube__item">
+                            <!-- <div class="youtube__item__pic set-bg"
+                                style="background-image: url('img/videosYoutube/youtube-3.jpg')">
+                                <a target="blank" href="https://www.youtube.com/watch?v=p8jOl1Zd4U4"
+                                    class="play-btn video-popup"><i class="fa fa-play"></i></a>
+                            </div> -->
+                            <iframe width="100%" height="300" src="https://www.youtube.com/embed/p8jOl1Zd4U4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <!-- <div class="youtube__item__text">
+                                <h4>Sambos Caporales Parejas 2019</h4>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Youtube Section End -->
+        <div class="section-title">
+            <h2>Mix Propios</h2>
+            <!-- <h1>Demo</h1> -->
+        </div>
+        <section class="mixDemo" id="mixDemo">
+
+            <div class="playerM">
+                <h2>Mix 2018 parejas Demo</h2>
+                <div class="imgBxM">
+                    <img src="img/mixPortada/2018.png" alt="">
+                </div>
+                <audio controls>
+                    <source src="img/mixPortada/2018.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div class="playerM">
+                <h2>Mix Chica Caporal Demo</h2>
+                <div class="imgBxM">
+                    <img src="img/mixPortada/mixChica.png" alt="">
+                </div>
+                <audio controls>
+                    <source src="img/mixPortada/mixChica.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div class="playerM">
+                <h2>Mix Chico Caporal Demo</h2>
+                <div class="imgBxM">
+                    <img src="img/mixPortada/mixChico.png" alt="">
+                </div>
+                <audio controls>
+                    <source src="img/mixPortada/mixChico.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div class="playerM">
+                <h2>Mix 2019 parejas Demo</h2>
+                <div class="imgBxM">
+                    <img src="img/mixPortada/2019.png" alt="">
+                </div>
+                <audio controls>
+                    <source src="img/mixPortada/2019.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </section>
+
+    </section>
+    <div class="section-title">
+        <h2 style="color: white; margin-left: 1em;">Ensayos</h2>
+        <p style="color: white; margin-left: 1em;">Los ensayos actualmente se llevan a cabo al aire libre, siempre con macarilla y manteniendo la distancia respectiva. </br>Lugar de ensayo: Teatrillo del Qhapac Ñan</p>
+    </div>
+    <section class="ubicanos" id="ubicanos">
+        <div class="row">
+            <div class="col50">
+                <!-- <div id="map"></div> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1652.4469998858124!2d-78.49551319062964!3d-7.162562631005437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDknNDUuMiJTIDc4wrAyOSc0MC42Ilc!5e0!3m2!1ses!2spe!4v1613676681294!5m2!1ses!2spe" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+        <div class="copyrightText">
+            <p>Copyright 2021 <a href="#">Anthony Torres</a>.</p>
+        </div>
+    </section>
+
+    <!-- scripts -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 150,
+                depth: 700,
+                modifier: 1,
+                slideShadows: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            loop: true,
+        });
+    </script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function toggleMenu() {
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+</body>
+
+</html>
