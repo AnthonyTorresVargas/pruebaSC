@@ -435,11 +435,24 @@ header .navigation li a:hover{
     position: relative;
     display: inline-block;
     color: #111;
-    padding: 10px 20px;
-    border-radius: 10px;
-    background: #fff;
+    padding: 11px 15px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
     margin-top: 10px;
     text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.nosotros .card .content a:hover{
+    background: #C13584;
+    transition: 0.3s ease-in-out;
+    transform: translateY(-10px);
+    color: white;
+}
+.nosotros .card .content a:hover:nth-child(4){
+    background: #3b5998;
+    transition: 0.3s ease-in-out;
+    transform: translateY(-10px);
+    color: white;
 }
 .nosotros .requisitos{
     position: relative;
