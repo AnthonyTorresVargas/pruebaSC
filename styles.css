@@ -1141,7 +1141,7 @@ header .navigation li a:hover{
 @media (max-width: 665px ){
     
 .alquilerSec .alquiler .containerAl .cardAl:hover .imgBxAl img{
-    transform: translate(-20px,-40px) scale(1.5);
+    transform: translate(-20px,-40px) scale(1.55);
 }
     .nosotros .nosotrosInfo .pantallaGrande{
         font-size: 0px;
