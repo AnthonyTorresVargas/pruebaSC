@@ -234,6 +234,14 @@ header .navigation li a:hover{
     font-size: 1em;
     margin-left: 1em;
 }
+.nosotros .nosotrosInfo .pantallaGrande{
+    font-size: 1em;
+    margin-left: 1em;
+}
+.nosotros .nosotrosInfo .pantallaPequeña{
+    font-size: 0px;
+    margin-left: 1em;
+}
 .nosotros .directiva{
     width: 100%;
     align-items: center;
@@ -595,7 +603,7 @@ header .navigation li a:hover{
     transition: 0.5s ease-in-out;
 }
 .alquilerSec .alquiler .containerAl .cardAl:hover .imgBxAl img{
-    transform: translate(-20px,-40px) scale(1.5);
+    transform: translate(-20px,-60px) scale(1.7);
 }
 .alquilerSec .alquiler .containerAl .cardAl .imgBxAl h2{
     color: #fff !important;
@@ -1131,6 +1139,16 @@ header .navigation li a:hover{
     }
 }
 @media (max-width: 665px ){
+    
+.alquilerSec .alquiler .containerAl .cardAl:hover .imgBxAl img{
+    transform: translate(-20px,-40px) scale(1.5);
+}
+    .nosotros .nosotrosInfo .pantallaGrande{
+        font-size: 0px;
+    }
+    .nosotros .nosotrosInfo .pantallaPequeña{
+        font-size: 1em;
+    }
     .alquiler .containerAl .cardAl:hover{
         margin-top: 50px;
         transition: 0.5s ease-in-out;
