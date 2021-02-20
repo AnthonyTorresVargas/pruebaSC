@@ -500,6 +500,154 @@ header .navigation li a:hover{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+.alquilerSec{
+    display: flex;
+    flex-direction: column;
+    
+    background: linear-gradient(45deg, #ffaf01, #fffde7);
+    overflow: hidden;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+.alquilerSec h2{
+    color: #000 !important;
+}
+.alquilerSec .alquiler{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/* .alquilerSec .alquiler .circleAD{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffaf01;
+    clip-path: circle( 50% at right -20% );
+}
+.alquilerSec .alquiler .circleAI{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffaf01;
+    clip-path: circle( 30% at 0% 100% );
+} */
+.alquilerSec .alquiler .containerAl{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.alquilerSec .alquiler .containerAl .cardAl{
+     position: relative;
+     width: 300px;
+     height: 400px;
+     margin: 20px 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     background: rgba(255,255,255,0.05);
+     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+     backdrop-filter: blur(15px);
+     transition: 0.5s ease-in-out;
+}
+
+.alquilerSec .alquiler .containerAl .cardAl .imgBxAl{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    transition: 0.5s ease-in-out;
+}
+.alquilerSec .alquiler .containerAl .cardAl:hover .imgBxAl {
+    transform: translateY(-100px);
+}   
+.alquilerSec .alquiler .containerAl .cardAl .imgBxAl img{
+    max-width: 50%;
+    margin: 0 0 20px;
+    transition: 0.5s ease-in-out;
+}
+.alquilerSec .alquiler .containerAl .cardAl:hover .imgBxAl img{
+    transform: translate(-20px,-40px) scale(1.5);
+}
+.alquilerSec .alquiler .containerAl .cardAl .imgBxAl h2{
+    color: #fff !important;
+    font-weight: 600;
+}
+.alquilerSec .alquiler .containerAl .cardAl .contentAl{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.alquilerSec .alquiler .containerAl .cardAl:hover .contentAl{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-10px);
+}
+.alquilerSec .alquiler .containerAl .cardAl .contentAl .size,
+.alquilerSec .alquiler .containerAl .cardAl .contentAl .color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+}
+.alquilerSec .alquiler .containerAl .cardAl .contentAl .size h3,
+.alquilerSec .alquiler .containerAl .cardAl .contentAl .color h3{
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+.alquilerSec .alquiler .containerAl .cardAl .contentAl .size span{
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 24px;
+    display: inline-block;
+    color: #111;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 0 5px;
+    font-weight: 500;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.alquilerSec .alquiler .containerAl .cardAl .contentAl .size span:hover{
+    background: #dcd028;
+}
+.alquilerSec .alquiler .containerAl .cardAl .contentAl .color span{
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 0, 255);
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+
+
 .integrantes{
     position: relative;
     width: 100%;
@@ -541,6 +689,90 @@ header .navigation li a:hover{
 }
 .contenido .textBoxI p{
     color: #fff;
+}
+.rowYoutube{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.youtube .section-title {
+	text-align: center;
+}
+
+.youtube .section-title h1 {
+	font-size: 90px;
+}
+
+.youtube__item {
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+	margin: 5px 20px;
+}
+
+.youtube__item:hover {
+	-webkit-box-shadow: 0px 3px 30px rgba(22, 41, 124, 0.1);
+	box-shadow: 0px 3px 30px rgba(22, 41, 124, 0.1);
+}
+
+.youtube__item__pic {
+	height: 240px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.youtube__item__pic .play-btn {
+	font-size: 16px;
+	color: #e2de01;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.3);
+	display: inline-block;
+	line-height: 60px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+
+.youtube__item__pic .play-btn i {
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+
+.youtube__item__pic .play-btn:after {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	height: 40px;
+	width: 40px;
+	background: #ffffff;
+	border-radius: 50%;
+	content: "";
+	z-index: -1;
+}
+
+.youtube__item__text {
+	padding: 25px 30px 20px 20px;
+	background: #ffffff;
+}
+
+.youtube__item__text h4 {
+	font-size: 26px;
+	color: #111111;
+	line-height: 34px;
+	font-weight: 700;
 }
 .swiper-container {
     width: 100%;
@@ -697,103 +929,12 @@ header .navigation li a:hover{
 	z-index: -1;
 }
 
-.set-bg {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
-}
-
 .spad {
 	padding-top: 40px;
-	padding-bottom: 100px;
-}
-.youtube {
-	padding-bottom: 50px;
-}
-.rowYoutube{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
-.youtube .section-title {
-	text-align: center;
-}
 
-.youtube .section-title h1 {
-	font-size: 90px;
-}
 
-.youtube__item {
-	-webkit-transition: all, 0.3s;
-	-o-transition: all, 0.3s;
-	transition: all, 0.3s;
-	margin: 5px 20px;
-}
-
-.youtube__item:hover {
-	-webkit-box-shadow: 0px 3px 30px rgba(22, 41, 124, 0.1);
-	box-shadow: 0px 3px 30px rgba(22, 41, 124, 0.1);
-}
-
-.youtube__item__pic {
-	height: 240px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-}
-
-.youtube__item__pic .play-btn {
-	font-size: 16px;
-	color: #e2de01;
-	height: 60px;
-	width: 60px;
-	border-radius: 50%;
-	background: rgba(255, 255, 255, 0.3);
-	display: inline-block;
-	line-height: 60px;
-	text-align: center;
-	position: relative;
-	z-index: 1;
-}
-
-.youtube__item__pic .play-btn i {
-	position: relative;
-	top: 2px;
-	left: 2px;
-}
-
-.youtube__item__pic .play-btn:after {
-	position: absolute;
-	left: 10px;
-	top: 10px;
-	height: 40px;
-	width: 40px;
-	background: #ffffff;
-	border-radius: 50%;
-	content: "";
-	z-index: -1;
-}
-
-.youtube__item__text {
-	padding: 25px 30px 20px 20px;
-	background: #ffffff;
-}
-
-.youtube__item__text h4 {
-	font-size: 26px;
-	color: #111111;
-	line-height: 34px;
-	font-weight: 700;
-}
 .ubicanos .copyrightText{
     padding: 8px 40px;
     border-top: 1px solid rgba(0,0,0,0.1);
@@ -973,6 +1114,10 @@ header .navigation li a:hover{
     }
 }
 @media (max-width: 665px ){
+    .alquiler .containerAl .cardAl:hover{
+        margin-top: 50px;
+        transition: 0.5s ease-in-out;
+    }
     .nosotros .requisitos .cardB{
         width: 330px;
         flex-direction: column;
