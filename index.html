@@ -24,12 +24,14 @@
                         Sambos Caporales Cajamarca</div>
                 </div>
                 <div id="whatswidget-conversation-message" class="whatswidget-conversation-message "
-                    style="all:revert;">Quisiera saber más información de la agrupación.</div>
+                    style="all:revert;">
+                    Quisiera saber más información de la agrupación.
+                </div>
                 <div class="whatswidget-conversation-cta" style="all:revert;">
                     <a style="all:revert;" id="whatswidget-phone-desktop" target="_blank"
-                        href="https://web.whatsapp.com/send?phone=+51976030819"
+                        href="https://web.whatsapp.com/send?phone=+51976030819?text=Quisiera%20saber%20más%20información%20de%20su%20agrupación."
                         class="whatswidget-cta whatswidget-cta-desktop">Enviar Mensaje</a>
-                    <a id="whatswidget-phone-mobile" target="_blank" href="https://wa.me/+51976030819"
+                    <a id="whatswidget-phone-mobile" target="_blank" href="https://wa.me/+51976030819?text=Quisiera%20saber%20más%20información%20de%20su%20agrupación."
                         class="whatswidget-cta whatswidget-cta-mobile" style="all:revert;">Enviar Mensaje</a>
                 </div>
                 <a target="_blank" class="whatswidget-link" href="https://www.adamante.com.br/code/whatsapp-site/"
@@ -496,8 +498,24 @@
             navigation.classList.toggle('active')
         }
     </script>
-    <script id="whatswidget-script"
-        type="text/javascript">document.getElementById("whatswidget-conversation").style.display = "none"; document.getElementById("whatswidget-conversation").style.opacity = "0"; var button = document.getElementById("whatswidget-button"); button.addEventListener("click", openChat); var conversationMessageOuter = document.getElementById("whatswidget-conversation-message-outer"); conversationMessageOuter.addEventListener("click", openChat); var chatOpen = !1; function openChat() { 0 == chatOpen ? (document.getElementById("whatswidget-conversation").style.display = "block", document.getElementById("whatswidget-conversation").style.opacity = 100, chatOpen = !0, document.getElementById("whatswidget-conversation-message-outer").style.display = "none") : (document.getElementById("whatswidget-conversation").style.opacity = 0, document.getElementById("whatswidget-conversation").style.display = "none", chatOpen = !1) }</script>
+    <script id="whatswidget-script" type="text/javascript">
+        document.getElementById("whatswidget-conversation").style.display = "none";
+        document.getElementById("whatswidget-conversation").style.opacity = "0";
+        var button = document.getElementById("whatswidget-button");
+        button.addEventListener("click", openChat);
+        var conversationMessageOuter = document.getElementById("whatswidget-conversation-message-outer");
+        conversationMessageOuter.addEventListener("click", openChat);
+        var chatOpen = !1;
+        function openChat() { 
+            0 == chatOpen ? 
+            (document.getElementById("whatswidget-conversation").style.display = "block", 
+            document.getElementById("whatswidget-conversation").style.opacity = 100, chatOpen = !0, 
+            document.getElementById("whatswidget-conversation-message-outer").style.display = "none") 
+            : 
+            (document.getElementById("whatswidget-conversation").style.opacity = 0, 
+            document.getElementById("whatswidget-conversation").style.display = "none", 
+            chatOpen = !1) 
+        }</script>
 </body>
 
 </html>
