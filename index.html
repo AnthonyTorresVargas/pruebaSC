@@ -31,7 +31,8 @@
                     <a style="all:revert;" id="whatswidget-phone-desktop" target="_blank"
                         href="https://web.whatsapp.com/send?phone=+51976030819?text=Quisiera%20saber%20más%20información%20de%20su%20agrupación."
                         class="whatswidget-cta whatswidget-cta-desktop">Enviar Mensaje</a>
-                    <a id="whatswidget-phone-mobile" target="_blank" href="https://wa.me/+51976030819?text=Quisiera%20saber%20más%20información%20de%20su%20agrupación."
+                    <a id="whatswidget-phone-mobile" target="_blank"
+                        href="https://wa.me/+51976030819?text=Quisiera%20saber%20más%20información%20de%20su%20agrupación."
                         class="whatswidget-cta whatswidget-cta-mobile" style="all:revert;">Enviar Mensaje</a>
                 </div>
                 <a target="_blank" class="whatswidget-link" href="https://www.adamante.com.br/code/whatsapp-site/"
@@ -195,8 +196,8 @@
         </div>
     </section>
     <h2 style="color: white;font-size: 1em;margin: 0px 1em;">Actividades en las que participamos</h2>
+    
     <section class="actividades" id="actividades">
-
         <div class="contenedorA">
             <div class="cardA">
                 <div class="imgBxA">
@@ -244,7 +245,6 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <section class="alquilerSec" id="alquilerSec">
@@ -256,8 +256,15 @@
             <div class="containerAl">
                 <div class="cardAl">
                     <div class="imgBxAl">
-                        <img src="img/integrantes/aleeIntegrante.png" alt="">
+                        <label class="labelAl">
+                            <input type="checkbox"  />
+                            <div class="cardImgbxAl">
+                                <div class="front"><img src="img/alquiler/ChicaMorado-1.png" alt=""></div>
+                                <div class="back"><img src="img/alquiler/ChicaMorado-2.png" alt=""></div>
+                            </div>
+                        </label>
                         <h2>Traje Morado Mujer</h2>
+                        
                     </div>
                     <div class="contentAl">
                         <div class="size">
@@ -276,7 +283,13 @@
                 </div>
                 <div class="cardAl">
                     <div class="imgBxAl">
-                        <img src="img/agrupacion/thonyDirector.png" alt="">
+                        <label class="labelAl">
+                            <input type="checkbox"  />
+                            <div class="cardImgbxAl">
+                                <div class="front"><img src="img/alquiler/ChicoMorado-1.png" alt=""></div>
+                                <div class="back"><img src="img/alquiler/ChicoMorado-2.png" alt=""></div>
+                            </div>
+                        </label>
                         <h2>Traje Morado Varon</h2>
                     </div>
                     <div class="contentAl">
@@ -506,15 +519,15 @@
         var conversationMessageOuter = document.getElementById("whatswidget-conversation-message-outer");
         conversationMessageOuter.addEventListener("click", openChat);
         var chatOpen = !1;
-        function openChat() { 
-            0 == chatOpen ? 
-            (document.getElementById("whatswidget-conversation").style.display = "block", 
-            document.getElementById("whatswidget-conversation").style.opacity = 100, chatOpen = !0, 
-            document.getElementById("whatswidget-conversation-message-outer").style.display = "none") 
-            : 
-            (document.getElementById("whatswidget-conversation").style.opacity = 0, 
-            document.getElementById("whatswidget-conversation").style.display = "none", 
-            chatOpen = !1) 
+        function openChat() {
+            0 == chatOpen ?
+                (document.getElementById("whatswidget-conversation").style.display = "block",
+                    document.getElementById("whatswidget-conversation").style.opacity = 100, chatOpen = !0,
+                    document.getElementById("whatswidget-conversation-message-outer").style.display = "none")
+                :
+                (document.getElementById("whatswidget-conversation").style.opacity = 0,
+                    document.getElementById("whatswidget-conversation").style.display = "none",
+                    chatOpen = !1)
         }</script>
 </body>
 
