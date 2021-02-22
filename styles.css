@@ -1275,9 +1275,6 @@ label:hover :checked + .cardImgbxAl {
 .touchImgToRotate{
     font-size: 10px;
 }
-
-
-
 .alquilerSec .alquiler .containerAl .cardAl .contentAl{
     position: absolute;
     bottom: 20px;
@@ -1499,6 +1496,96 @@ label:hover :checked + .cardImgbxAl {
   .swiper-container-3d .swiper-slide-shadow-left{
       background-image: none;
   }
+
+.actividad{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* min-height: 100vh; */
+    background: #111;
+}
+.actividad .boxAc{
+    position: relative;
+    width: 338px;
+    height: 200px;
+    background: #f00;
+    margin: 10px;
+    overflow: hidden;
+}
+.actividad .boxAc .imgBoxAc{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.9);
+}
+.actividad .boxAc .imgBoxAc.active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000000000000;
+}
+.actividad .boxAc .imgBoxAc img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.actividad .boxAc .imgBoxAc.active img {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    right: 20px;
+    bottom: 90px;
+    width: calc(100% - 40px);
+    height: calc(100% - 70px);
+}
+.actividad .boxAc .imgBoxAc h2{
+    opacity: 0;
+    visibility: hidden;
+}
+.actividad .boxAc .imgBoxAc.active h2{
+    opacity: 1;
+    visibility: visible;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+.actividad .boxAc .imgBoxAc .contenidoAc{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    left: 50px;
+    opacity: 0;
+    visibility: hidden;
+    background: rgba(0,0,0,0.8);
+    padding: 20px;
+    color: #fff;
+    transform: translateY(100%);
+}
+.actividad .boxAc .imgBoxAc.active .contenidoAc{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: 0.05s ease-in-out;
+}
+.actividad .boxAc .imgBoxAc .contenidoAc h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.actividad .boxAc .imgBoxAc .contenidoAc p{
+    color: #fff;
+}
+
 
 .actividades{
     display: flex;

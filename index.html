@@ -196,7 +196,55 @@
         </div>
     </section>
     <h2 style="color: white;font-size: 1em;margin: 0px 1em;">Actividades en las que participamos</h2>
-    
+    <section class="actividad">
+        <div class="boxAc">
+            <div class="imgBoxAc">
+                <img src="img/pasacalles.png" alt="">
+                <h2>Selecciona Nuevamente para Cerrar</h2>
+                <div class="contenidoAc">
+                    <h3>Pasacalle</h3>
+                    <p>La agrupación ha participado en diversos pasacalles.</p>
+                </div>
+            </div>
+        </div>
+        <div class="boxAc">
+            <div class="imgBoxAc">
+                <img src="img/presentacion.png" alt="">
+                <h2>Selecciona Nuevamente para Cerrar</h2>
+                <div class="contenidoAc">
+                    <h3>Presentaciones</h3>
+                    <p>La agrupación tiene un amplio repertorio de coreografías para todo tipo de presentaciones.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="boxAc">
+            <div class="imgBoxAc">
+                <img src="img/conPar.png" alt="">
+                <h2>Selecciona Nuevamente para Cerrar</h2>
+                <div class="contenidoAc">
+                    <h3>Concursos Pareja</h3>
+                    <p>Siempre dejando el nombre del grupo en alto.</p>
+                </div>
+            </div>
+        </div>
+        <div class="boxAc">
+            <div class="imgBoxAc">
+                <img src="img/conInd.png" alt="">
+                <h2>Selecciona Nuevamente para Cerrar</h2>
+                <div class="contenidoAc">
+                    <h3>Concursos Individuales</h3>
+                    <p>Obteniendo los primeros puestos en estos concursos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        let imgBoxAc = document.querySelectorAll('.imgBoxAc');
+        imgBoxAc.forEach(popup => popup.addEventListener('click', () => {
+            popup.classList.toggle('active')
+        }))
+    </script>
     <section class="actividades" id="actividades">
         <div class="contenedorA">
             <div class="cardA">
@@ -345,8 +393,6 @@
         </div>
 
     </section>
-
-
 
     <section class="galeria" id="galeria">
         <!-- Youtube Section Begin -->
