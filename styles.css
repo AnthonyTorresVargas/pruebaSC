@@ -1503,7 +1503,7 @@ label:hover :checked + .cardImgbxAl {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* min-height: 100vh; */
+    min-height: 50vh;
     background: #111;
 }
 .actividad .boxAc{
@@ -1586,13 +1586,12 @@ label:hover :checked + .cardImgbxAl {
     color: #fff;
 }
 
-
+/* 
 .actividades{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 70vh;
-    /* background: #e6c211 ; */
 }
 .actividades .contenedorA{
     position: relative;
@@ -1634,7 +1633,7 @@ label:hover :checked + .cardImgbxAl {
 .actividades .contenedorA .contenidoA div{
     padding: 20px;
     text-align: center;
-}
+} */
 .galeria {
     display: flex;
     flex-direction: column;
