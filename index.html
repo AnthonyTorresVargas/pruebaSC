@@ -195,7 +195,7 @@
             </div>
         </div>
     </section>
-    <h2 style="color: white;font-size: 1em;margin: 0px 1em;">Actividades en las que participamos</h2>
+    <h2 style="color: white;font-size: 1em;margin: 0px 1em;">Actividades en las que participamos (Selecciona para más información)</h2>
     <section class="actividad">
         <div class="boxAc">
             <div class="imgBoxAc">
@@ -239,13 +239,8 @@
             </div>
         </div>
     </section>
-    <script>
-        let imgBoxAc = document.querySelectorAll('.imgBoxAc');
-        imgBoxAc.forEach(popup => popup.addEventListener('click', () => {
-            popup.classList.toggle('active')
-        }))
-    </script>
-    <section class="actividades" id="actividades">
+    
+    <!-- <section class="actividades" id="actividades">
         <div class="contenedorA">
             <div class="cardA">
                 <div class="imgBxA">
@@ -293,7 +288,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="alquilerSec" id="alquilerSec">
         <h2 style="color: white;font-size: 1em;margin: 0px 1em;">Te gustan nuestros trajes? Felicidades! también los
@@ -557,6 +552,12 @@
             menuToggle.classList.toggle('active')
             navigation.classList.toggle('active')
         }
+    </script>
+    <script>
+        let imgBoxAc = document.querySelectorAll('.imgBoxAc');
+        imgBoxAc.forEach(popup => popup.addEventListener('click', () => {
+            popup.classList.toggle('active')
+        }))
     </script>
     <script id="whatswidget-script" type="text/javascript">
         document.getElementById("whatswidget-conversation").style.display = "none";
